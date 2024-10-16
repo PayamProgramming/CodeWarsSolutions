@@ -13,4 +13,9 @@ public class SquareDigit {
 
         return Integer.parseInt(doubleCurrentNum);
     }
+
+    public static void main(String[] args) {
+        SquareDigit squareDigit = new SquareDigit();
+        System.out.println(squareDigit.squareDigits(9119));
+    }
 }

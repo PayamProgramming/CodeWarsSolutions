@@ -14,4 +14,14 @@ public class CountingDuplicates {
         }
         return count;
     }
+
+    public static void main(String[] args) {
+        System.out.println(duplicateCount("abcde"));
+        System.out.println(duplicateCount("aabbcde"));
+        System.out.println(duplicateCount("aabBcde"));
+        System.out.println(duplicateCount("indivisibility"));
+        System.out.println(duplicateCount("Indivisibilities"));
+        System.out.println(duplicateCount("aA11"));
+        System.out.println(duplicateCount("ABBA"));
+    }
 }

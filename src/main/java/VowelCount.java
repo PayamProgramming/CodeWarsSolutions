@@ -3,10 +3,6 @@ import java.util.List;
 
 public class VowelCount {
 
-    public static void main(String[] args) {
-        System.out.println(getCount("eeeeeeeee"));
-    }
-
     public static int getCount(String str) {
         int vowelsCount = 0;
         List<String> vowels = new ArrayList<>();
@@ -24,6 +20,10 @@ public class VowelCount {
             }
         }
         return vowelsCount;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(getCount("eyahdega"));
     }
 
 }

@@ -23,4 +23,9 @@ public class XO {
         }
         return isSame;
     }
+
+
+    public static void main(String[] args) {
+        System.out.println(getXO("xxooo"));
+    }
 }

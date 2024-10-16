@@ -6,4 +6,8 @@ public class FindOdd {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        System.out.println(findIt(new int[]{1, 1, 2, 2, 3, 3, 3}));
+    }
 }
